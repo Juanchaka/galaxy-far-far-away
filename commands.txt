@@ -1,0 +1,53 @@
+https://docs.google.com/document/d/13fEWiI7mvOma3rB7BvthwEQHgIzDTwPf4kPPgOSChW8/edit
+
+SETUP
+Mkdir galaxy-far-far-away
+Cd galaxy-far-far-away
+Touch commands.txt
+
+PART 1
+Mkdir death_star
+Cd death_star
+Touch darth_vader.txt
+Touch princess_leia.txt
+Touch storm_trooper.txt
+Cd ..
+Mkdir tatooine
+Cd tatooine
+Touch luke.txt
+Touch ben_kenobi.txt
+Mkdir millenium_falcon
+Cd millenium_falcon
+Touch han_solo.txt
+Touch chewbaca.txt
+
+PART 2
+Cd ..
+Mv ben_kenobi.txt obi_wan.txt
+
+PART 3
+
+Cp ../death_star/storm_trooper.txt .
+
+PART 4
+6. Mv luke.txt obi_wan.txt millenium_falcon
+7. Mv millenium_falcon/ ..
+Mv millenium_falcon/ death_star/
+8. Cd death_star
+9. Mv princess_leia.txt millenium_falcon
+Cd millenium_falcon
+
+PART 5
+10. Rm obi_wan.txt
+
+PART 6
+
+11. Mkdir ../../yavin_4
+12. cd ../../
+11. Mv deathstar/millenium_falcon/ yavin_4/
+12. Cd yavin_4
+13. Mkdir x_wing
+14. Mv millenium_falcon/princess_leia.txt .
+      mv millenium_falcon/luke.txt x_wing/
+15. Mv millenium_falcon/ x_wing/ ../
+16. Mkdir ../death_star/tie_fighter_1/ ../death_star/tie_fighter_2/ ../death_star/tie_fighter3/
